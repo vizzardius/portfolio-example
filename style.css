@@ -159,12 +159,13 @@ div{
 }
 .example-text{
    display: inline-block;
-   width: 500px;
+   width: 600px;
    margin-left: 100px;
 }
 
 #example-my-skills-text{
    margin-left: 650px;
+   width: 500px;
 }
 
 /* footer -------------------------------------------------------------------------------------------------------------- */
@@ -196,6 +197,7 @@ div{
 .social-media-description{
    margin-left: 400px;
 }
+
 
 
 

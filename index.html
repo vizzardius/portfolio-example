@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My portfolio(example)</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header>
+      <div id="button-div">
+         <button class="header-buttons" id="greeting-button"
+            onclick="document.getElementById('greeting').scrollIntoView({behavior:'smooth'})">Hello!</button>
+         <button class="header-buttons" id="about-me-button"
+            onclick="document.getElementById('about-me').scrollIntoView({behavior:'smooth'})">About Me</button>
+         <button class="header-buttons" id="my-skills-button"
+            onclick="document.getElementById('my-skills').scrollIntoView({behavior:'smooth'})">My Skills</button>
+         <button class="header-buttons" id="my-projects-button"
+            onclick="document.getElementById('my-projects').scrollIntoView({behavior:'smooth'})">My Projects</button>
+         <button class="header-buttons" id="my-contacts-button"
+            onclick="document.getElementById('my-projects').scrollIntoView({behavior:'smooth'})">My Contacts</button>
+      </div>
+      <div class="greeting" id="greeting">
+         <h1 id="greeting-h1">Hello,this is a web-site portfolio example by Vizzardius</h1>
+         <p id="greeting-text">In this part you can write main information about you:your name,age,where are you from
+            and what are you doing now.</p>
+         <img src="images/personal-logo.png" alt="" id="personal-logo">
+         <button class="example-button" id="greeting-example-button">example</button>
+         <p class="example-text" id="example-greeting-text" style="display: none;">Hi,my name is Vizzardius,I am 18
+            years old and i'm from Ukraine now I'm studing in university</p>
+      </div>
+   </header>
+   <main>
+      <div id="articles-div">
+         <div id="first-article-div">
+            <article id="about-me">
+               <h2 class="article-title" id="first-article-title">About me</h2>
+               <p class="article-text" id="first-article-text">Here you can write more in depth about yourself : your
+                  work expirience,where did you study,which job you wanna get,etc.</p>
+               <img src="images/about-me.png" alt="" class="articles-img" id="articles-img-1">
+               <button class="example-button-articles" id="about-me-example-button">example</button>
+               <p class="example-text" id="example-about-me-text" style="display: none;">I worked at Google for 5
+                  years,I studied at Harvard,and now I wanna be a Web Front-end developer</p>
+            </article>
+         </div>
+         <div id="second-article-div">
+            <article id="my-skills">
+               <h2 class="article-title" id="second-article-title">My skills</h2>
+               <p class="article-text" id="second-article-text">Here you can describe your work skills,and write what
+                  you can do at the job you want to get</p>
+               <img src="images/my-skills.png" alt="" class="articles-img" id="articles-img-2">
+               <button class="example-button-articles second-example-article-button"
+                  id="my-skills-example-button">example</button>
+               <p class="example-text" id="example-my-skills-text" style="display: none;">My skills are very diferent,I know HTML,CSS and Java script,I can create a web-site and I'm very good at working in a team</p>
+            </article>
+         </div>
+         <div id="third-article-div">
+            <article id="my-projects">
+               <h2 class="article-title" id="third-article-title">My projects</h2>
+               <p class="article-text" id="third-article-text">Here you can write about your projects or tasks you
+                  performed,and you can add here a link to your github profile with projects</p>
+               <img src="images/my-projects.png" alt="" class="articles-img" id="articles-img-3">
+               <button class="example-button-articles" id="my-projects-example-button">example</button>
+               <p class="example-text" id="example-my-projects-text" style="display: none;">I have created a lot of projects,web-sites and web-apps,you can see them on my Github acсount,here is the link: <a href="https://github.com/vizzardius">https://github.com/vizzardius</a></p>
+            </article>
+         </div>
+      </div>
+   </main>
+   <footer>
+      <div id="contacts-div">
+         <h1 id="social-media-h1">My social medias:</h1>
+         <p class="social-media-description">Here you can add links or usernames for your social medias</p>
+         <div class="social-media" id="telegram">
+            <img src="images/telegram.png" alt="" class="social-media-icons">
+            <h2 class="social-media-title">Telegram</h2>
+         </div>
+         <div class="social-media" id="instagram">
+            <img src="images/instagram.png" alt="" class="social-media-icons">
+            <h2 class="social-media-title">Instagram</h2>
+         </div>
+         <div class="social-media" id="viber">
+            <img src="images/viber.png" alt="" class="social-media-icons">
+            <h2 class="social-media-title">Viber</h2>
+         </div>
+         <div class="social-media" id="email">
+            <img src="images/email.png" alt="" class="social-media-icons">
+            <h2 class="social-media-title">Email</h2>
+         </div>
+      </div>
+   </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>

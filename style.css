@@ -159,7 +159,7 @@ div{
 }
 .example-text{
    display: inline-block;
-   width: 600px;
+   width: 500px;
    margin-left: 100px;
 }
 
@@ -196,6 +196,7 @@ div{
 .social-media-description{
    margin-left: 400px;
 }
+
 
 
 
